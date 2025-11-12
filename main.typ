@@ -66,9 +66,9 @@
   let (x, y) = position
   compound-path(fill: fill, stroke: stroke, fill-rule: "even-odd",
   {
-    circle((0+x, 0+y), radius:1.3*scale, fill: fill, stroke: stroke)
-    circle((0+x, 0.2*scale+y), radius:0.9 * scale, fill: fill, stroke: stroke)
-    circle((0+x, 0.45*scale+y), radius:0.4 * scale, fill: fill, stroke: stroke)
+    circle((0+x, -0.2*scale+y), radius:1.3*scale, fill: fill, stroke: stroke)
+    circle((0+x, 0.*scale+y), radius:0.9 * scale, fill: fill, stroke: stroke)
+    circle((0+x, 0.25*scale+y), radius:0.4 * scale, fill: fill, stroke: stroke)
   })
 }
 
@@ -110,22 +110,22 @@
   compound-path(fill: fill, stroke: stroke, fill-rule: "even-odd",
   {
     crescent((0+x,0+y), 180deg, scale, 1.6, 300deg, fill, stroke)
-    circle((0+x, 0.04*scale+y), radius:0.29 * scale, fill: fill, stroke: stroke)
-    circle((0+x, 0*scale+y), radius: 0.4 * scale)
-    circle((0+x, 0.8*scale+y), radius: 0.2 * scale)
-    circle((0+x, 1.3*scale+y), radius: 0.15 * scale)
+    circle((0+x, -0.36*scale+y), radius:0.29 * scale, fill: fill, stroke: stroke)
+    circle((0+x, -0.4*scale+y), radius: 0.4 * scale)
+    circle((0+x, 0.35*scale+y), radius: 0.2 * scale)
+    circle((0+x, 0.9*scale+y), radius: 0.15 * scale)
   })
 }
 
 
 #cetz.canvas({
-  icon1((0,10), 1.5, black, none)
-  icon2((5,10), 1.5, black, none)
-  icon3((10,10), 1.5, black, none)
-  icon4((0,5), 1.5, black, none)
-  icon5((5,5), 1.5, black, none)
-  icon6((10,5), 1.5, black, none)
-  icon7((0,0), 1.5, black, none)
-  icon8((5,0), 1.5, black, none)
-  icon9((10,0), 1.5, black, none)
+  icon1((0,3), 0.5, black, none)
+  icon2((1.5,3), 0.5, black, none)
+  icon3((3,3), 0.5, black, none)
+  icon4((0,1.5), 0.5, black, none)
+  icon5((1.5,1.5), 0.5, black, none)
+  icon6((3,1.5), 0.5, black, none)
+  icon7((0,0), 0.5, black, none)
+  icon8((1.5,0), 0.5, black, none)
+  icon9((3,0), 0.5, black, none)
 })
